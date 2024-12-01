@@ -37,9 +37,7 @@ public class DietaGeminiService {
     private static final Dotenv dotenv = Dotenv.load();
     
     private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?";
-    private static final String API_KEY = dotenv.get("API_KEY");
-    
-    //private static final String API_KEY = "AIzaSyC4sLt3r-1Zss9B7mh6gJGPx7RK33Z6wQk"; 
+    private static final String API_KEY = dotenv.get("API_KEY"); 
     
     private final RestTemplate restTemplate;
     private final UsuarioRepository usuarioRepository;

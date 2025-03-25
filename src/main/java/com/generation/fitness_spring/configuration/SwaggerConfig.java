@@ -19,8 +19,8 @@ public class SwaggerConfig {
     OpenAPI springBlogPessoalOpenAPI() {
         return new OpenAPI()
             .info(new Info()
-                .title("Projeto Carona Compartilhada")
-                .description("Projeto Carona Compartilhada - Generation Brasil")
+                .title("Projeto App Fitness")
+                .description("Projeto App Fitness - Generation Brasil")
                 .version("v0.0.1")
                 .license(new License()
                     .name("Generation Brasil")
